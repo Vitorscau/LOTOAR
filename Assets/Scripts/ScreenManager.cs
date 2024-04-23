@@ -1,13 +1,23 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using static UnityEngine.XR.ARSubsystems.XRCpuImage;
 
 public class ScreenManager : MonoBehaviour
 {
-    // Variável estática para armazenar o nome da tela anterior
-    public static string PreviousScreen { get; private set; }
 
-    // Método para definir a tela anterior
-    public static void SetPreviousScreen(string screenName)
+    // Insira Aqui a suas Variáveis
+
+    public void Voltar()
     {
-        PreviousScreen = screenName;
+        // Implementar Aqui Lógica do Botão Voltar
+        print("Voltar");
+
+    }
+
+    public void Exit()
+    {
+        // Implementar Aqui Lógica do Botão Exit (Botão X)
+        print("Sair");
+
     }
 }
