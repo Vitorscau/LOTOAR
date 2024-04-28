@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 7314309489262206022}
   - component: {fileID: 118160175484847885}
   - component: {fileID: 914460098214120209}
-  - component: {fileID: 4772371367658458489}
+  - component: {fileID: 3951579233850293347}
   m_Layer: 0
   m_Name: BackButton
   m_TagString: Untagged
@@ -513,9 +513,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4772371367658458489}
-        m_TargetAssemblyTypeName: ScreenManager, Assembly-CSharp
-        m_MethodName: Voltar
+      - m_Target: {fileID: 3951579233850293347}
+        m_TargetAssemblyTypeName: UnityFigmaBridge.Runtime.UI.FigmaPrototypeFlowButton,
+          UnityFigmaBridgeRuntime
+        m_MethodName: PreviousScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -525,7 +526,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4772371367658458489
+--- !u!114 &3951579233850293347
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -534,6 +535,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7475228685854774089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99f01cf74bf77d947b9ce8760c07f8fd, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c769d7a55f9d408f86cb6f07f9b2b80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 
