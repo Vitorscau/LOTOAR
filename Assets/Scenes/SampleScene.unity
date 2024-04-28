@@ -496,7 +496,7 @@ MonoBehaviour:
     FigmaScreenPrefab: {fileID: 6833022129323873571, guid: add24f63a1a908d47ba94980bcc07c78, type: 3}
     FigmaScreenName: HomeOriginal
     ParentSectionNodeId: 
-  - FigmaNodeId: 2062:196
+  - FigmaNodeId: Home
     FigmaScreenPrefab: {fileID: 721208345082722481, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
     FigmaScreenName: Home
     ParentSectionNodeId: 
@@ -504,7 +504,7 @@ MonoBehaviour:
     FigmaScreenPrefab: {fileID: 8298222638592024794, guid: b4d7b7a746c25864d8cb695e15dcdc3c, type: 3}
     FigmaScreenName: BottomNavBar
     ParentSectionNodeId: 
-  - FigmaNodeId: 1:83
+  - FigmaNodeId: PlacesDojo
     FigmaScreenPrefab: {fileID: 2994572730836567631, guid: 30b003059e862a7478849f2dc96c5983, type: 3}
     FigmaScreenName: PlacesDojo
     ParentSectionNodeId: 
@@ -512,11 +512,11 @@ MonoBehaviour:
     FigmaScreenPrefab: {fileID: 967788940426310067, guid: 5c037bc95a16953479855f1fd41986f8, type: 3}
     FigmaScreenName: PlacesDojoOriginal
     ParentSectionNodeId: 
-  - FigmaNodeId: 24:31
+  - FigmaNodeId: QRCodeAviso
     FigmaScreenPrefab: {fileID: 2897959080727620222, guid: b992074bb0d58654585b09752965636c, type: 3}
     FigmaScreenName: QRCodeAviso
     ParentSectionNodeId: 
-  - FigmaNodeId: 24:242
+  - FigmaNodeId: QRCode
     FigmaScreenPrefab: {fileID: 5063189685743252712, guid: 883be72512ff2c04f948461902eb9c3f, type: 3}
     FigmaScreenName: QRCode
     ParentSectionNodeId: 
@@ -524,7 +524,7 @@ MonoBehaviour:
     FigmaScreenPrefab: {fileID: 2067909502377225725, guid: a098c0365cb1a26468fcf7f72bda8ed9, type: 3}
     FigmaScreenName: VerticalNavBar
     ParentSectionNodeId: 
-  - FigmaNodeId: 3:8830
+  - FigmaNodeId: PlacesInfra
     FigmaScreenPrefab: {fileID: 4905099627344605293, guid: 5735951e58bec0441a16d56b7fbba3ec, type: 3}
     FigmaScreenName: PlacesInfra
     ParentSectionNodeId: 
@@ -823,6 +823,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3709948963436427121, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScreen
+      objectReference: {fileID: 0}
     - target: {fileID: 3777840099659674759, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -838,11 +842,31 @@ PrefabInstance:
     - target: {fileID: 4327331696344078473, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916767575013602982, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916767575013602982, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916767575013602982, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 102900000, guid: dfbee4ec326af4d41977f4538b95aa7a, type: 3}
+    - target: {fileID: 4916767575013602982, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4961791893621668795, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6116409785333727239, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6151357896461439875, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -875,7 +899,40 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8974048835885401726, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974048835885401726, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974048835885401726, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974048835885401726, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974048835885401726, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974048835885401726, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974048835885401726, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974048835885401726, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7855913472388793585, guid: 691d15d95e8713b459fe636f233e9316, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
