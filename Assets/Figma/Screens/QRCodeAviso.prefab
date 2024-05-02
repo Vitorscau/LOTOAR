@@ -6808,6 +6808,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2641350129656720973}
     m_Modifications:
+    - target: {fileID: 1768425768459903251, guid: a822bb5ab80dca441b275d83b8c439f3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768425768459903251, guid: a822bb5ab80dca441b275d83b8c439f3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5646696066419926958, guid: a822bb5ab80dca441b275d83b8c439f3, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6997,6 +7005,18 @@ PrefabInstance:
     - target: {fileID: 7933425317625040109, guid: c5e329394d37db84db8ef2ee39d74968, type: 3}
       propertyPath: m_Name
       value: ExitButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441133345235512323, guid: c5e329394d37db84db8ef2ee39d74968, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441133345235512323, guid: c5e329394d37db84db8ef2ee39d74968, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441133345235512323, guid: c5e329394d37db84db8ef2ee39d74968, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
