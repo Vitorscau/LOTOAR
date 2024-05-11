@@ -24,7 +24,7 @@ MonoBehaviour:
   _fileLogLevel: 5
   _stdoutLogLevel: 5
   _lightshipSimulationParams:
-    _environmentPrefab: {fileID: 0}
+    _environmentPrefab: {fileID: 5106149827967227361, guid: 3fb046bec96617641bce0a0cd1a0ae81, type: 3}
     _useZBufferDepth: 1
     _useLightshipPersistentAnchor: 0
     _simulationPersistentAnchorParams:

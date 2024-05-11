@@ -1114,10 +1114,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3415075193181367588}
-        m_TargetAssemblyTypeName: UnityFigmaBridge.Runtime.UI.FigmaPrototypeFlowButton,
-          UnityFigmaBridgeRuntime
-        m_MethodName: ChangeScreen
+      - m_Target: {fileID: 4549525191543916094, guid: 18ce74023525f964094318ec79b304a6, type: 3}
+        m_TargetAssemblyTypeName: ModuloAR, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -22,5 +22,10 @@ public class ModuloAR : MonoBehaviour
         SceneManager.LoadScene("MainScene");
         Debug.Log("Clicou");
     }
+    public void LoadScene2()
+    {
+        SceneManager.LoadScene("SampleScene");
+        Debug.Log("Clicou");
+    }
 }
 

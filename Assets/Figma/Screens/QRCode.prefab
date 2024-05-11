@@ -133,7 +133,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2897815251162555530
 RectTransform:
   m_ObjectHideFlags: 0
@@ -288,7 +288,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8406278921544617243
 RectTransform:
   m_ObjectHideFlags: 0
@@ -667,7 +667,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
   m_Shape: 0
   m_StrokeColor: {r: 1, g: 1, b: 1, a: 1}
-  m_FillColor: {r: 0.104166664, g: 0.104166664, b: 0.104166664, a: 1}
+  m_FillColor: {r: 0.104166664, g: 0.104166664, b: 0.104166664, a: 0}
   m_StrokeWidth: 0
   m_CornerRadius: {x: 0, y: 0, z: 0, w: 0}
   m_StrokePosition: 0
@@ -943,7 +943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &923131604110492083
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1100,7 +1100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &9212575600736030382
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1321,6 +1321,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExitButton
       objectReference: {fileID: 0}
+    - target: {fileID: 8441133345235512323, guid: c5e329394d37db84db8ef2ee39d74968, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4549525191543916094, guid: 18ce74023525f964094318ec79b304a6, type: 3}
+    - target: {fileID: 8441133345235512323, guid: c5e329394d37db84db8ef2ee39d74968, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1339,6 +1347,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6724042614453171157}
     m_Modifications:
+    - target: {fileID: 914460098214120209, guid: a822bb5ab80dca441b275d83b8c439f3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4549525191543916094, guid: 18ce74023525f964094318ec79b304a6, type: 3}
+    - target: {fileID: 914460098214120209, guid: a822bb5ab80dca441b275d83b8c439f3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene2
+      objectReference: {fileID: 0}
+    - target: {fileID: 914460098214120209, guid: a822bb5ab80dca441b275d83b8c439f3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ModuloAR, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768425768459903251, guid: a822bb5ab80dca441b275d83b8c439f3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768425768459903251, guid: a822bb5ab80dca441b275d83b8c439f3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3169343695246555063, guid: a822bb5ab80dca441b275d83b8c439f3, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 19.999939

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Niantic.Lightship.AR.NavigationMesh;
 using UnityEngine.InputSystem;
+using System.Linq;
 
 public class NavMeshHowTo : MonoBehaviour
 {
@@ -76,6 +77,8 @@ public class NavMeshHowTo : MonoBehaviour
                         _creature = Instantiate(_agentPrefab);
                         _creature.transform.position = hit.point;
                         _agent = _creature.GetComponent<LightshipNavMeshAgent>();
+                        GameObject popup = FindGameObjectsAll("Preparado");
+                        popup.SetActive(true);
                     }
                     else
                     {
@@ -90,4 +93,6 @@ public class NavMeshHowTo : MonoBehaviour
             }
         }
     }
+    public static GameObject FindGameObjectsAll(string name) => Resources.FindObjectsOfTypeAll<GameObject>().First(x => x.name == name);
 }
+
